@@ -1,0 +1,12 @@
+# Core runtime
+langgraph
+langchain-core     # core types/utils, no providers required
+typing-extensions  # for TypedDict etc. on older Pythons
+
+# Notebooks
+jupyter
+ipykernel
+
+# Nice-to-have utils
+python-dotenv      # if you later want .env config
+pydantic           # if you prefer Pydantic models for state (optional)
